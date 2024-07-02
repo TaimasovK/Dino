@@ -19,6 +19,6 @@ dino.classList.remove("jump")
 		let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
 		if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){
-			alert("КОНЕЦ ИГРЫ !!!")
+			alert("КОНЕЦ ИГРЫ !!!!!")
 		}
 }, 10);
